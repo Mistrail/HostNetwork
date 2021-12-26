@@ -1,4 +1,5 @@
-import {createClient} from 'redis';
+import redisPkg from 'redis';
+const {createClient} = redisPkg;
 import {e, d} from "../misc/util.js";
 
 let isThrownError = false;
